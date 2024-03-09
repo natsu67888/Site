@@ -229,7 +229,6 @@ header{
 }
 .product{
     height: 1300px;
-    padding-top: 40px;
     padding-right: 200px;
 }
 .opis-product{
@@ -239,7 +238,7 @@ header{
 }
 .opis-right{
     width: 100%;
-    margin-top: 130px;
+    margin-top: 90px;
     margin-left: 60px;
 }
 .img-product{
@@ -248,12 +247,13 @@ header{
     margin-left: 80px;
 }
 .name-product{
-    font-family: 'Inter', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 44px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
     letter-spacing: 0em;
-    color: #b82f17;
+    color:#8D2210;
+    
 }
 .yes-no{
     display: flex;
@@ -397,7 +397,7 @@ header{
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0em;
-    color: #b82f17;
+    color: #CA9F14;
     margin-top: 20px;
 }
 .yellow{
@@ -406,7 +406,7 @@ header{
     font-weight: 500;
     line-height: 29px;
     letter-spacing: 0em;
-    color: #b82f17;
+    color: #CA9F14;
 }
 .grey{
     font-family: Inter;
@@ -418,6 +418,58 @@ header{
     color:rgb(138, 138, 138);
     margin-top: 20px;
 }
+.blocks{
+    margin-top: 180px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.garanti{
+    border: 1px solid #CA9F14;
+    width: 433px;
+    height: 219px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 42px;
+}
+.garanti2{
+    width: 623px;
+    height: 219px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 42px;
+    border: 1px solid #CA9F14;
+}
+.garanti3{
+    width: 393px;
+    height: 219px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 42px;
+    border: 1px solid #CA9F14;
+}
+.red{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    color: #8D2210;
+}
+.yellow2{
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color:#CA9F14;
+}
+a{
+    text-decoration: none;
+}
+
 
 .footer{
     display: flex;
